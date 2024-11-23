@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Donation App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Food Donation App</h1>
+        <p>Connecting leftover food with the needy</p>
+    </header>
+
+    <div class="container">
+        <!-- Mission Section -->
+        <section class="section">
+            <h2>Our Mission</h2>
+            <p>
+                If you have leftover food from functions, parties, or events that would otherwise go to waste, this platform
+                connects you with old-age homes, orphanages, and shelters that can make the best use of it.
+            </p>
+        </section>
+
+        <!-- Food Donation Form -->
+        <section class="section">
+            <h2>Donate Food</h2>
+            <form id="donationForm">
+                <input type="text" id="donorName" placeholder="Your Name" required>
+                <input type="text" id="foodDetails" placeholder="Type of Food (e.g., rice, vegetables, bread)" required>
+                <textarea id="pickupAddress" rows="4" placeholder="Pickup Address" required></textarea>
+                <input type="datetime-local" id="availableTime" required>
+                <button type="submit">Submit Donation</button>
+            </form>
+        </section>
+
+        <!-- Job Creation Section -->
+        <section class="section">
+            <h2>Job Opportunities</h2>
+            <div class="jobs">
+                <div class="job-card">
+                    <h3>Food Collector</h3>
+                    <p>Pick up leftover food from donors and deliver it to distribution centers.</p>
+                </div>
+                <div class="job-card">
+                    <h3>Delivery Personnel</h3>
+                    <p>Deliver food from distribution centers to orphanages and old-age homes.</p>
+                </div>
+                <div class="job-card">
+                    <h3>Coordinator</h3>
+                    <p>Manage logistics and ensure smooth operations between donors and recipients.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
